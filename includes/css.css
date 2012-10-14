@@ -105,3 +105,8 @@ h1 a:hover {
 #connect img {
 	border:solid 0px;
 }
+#w3{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
