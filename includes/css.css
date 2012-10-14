@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'Neuton';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Neuton Extralight'), local('Neuton-ExtraLight'), url(http://themes.googleusercontent.com/static/fonts/neuton/v5/Tjl7b0u2P9xaFOPIyj3u0j8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+#navigation {
+  position: fixed;
+  top: 65px;
+  width: 100%;
+  z-index:3000;
+  color: #ffffff;
+  height: 40px;
+  text-align: center;
+  padding-top: 5px;
+  /* Adds shadow to the bottom of the bar */
+  -webkit-box-shadow: 0px 0px 8px 0px #000000;
+  -moz-box-shadow: 0px 0px 8px 0px #000000;
+  box-shadow: 0px 0px 8px 0px #000000;
+  /* Adds the transparent background */
+  background-color: rgba(1, 1, 1, 0.8);
+  color: rgba(1, 1, 1, 0.8);
+}
+
+#navigation a {
+	font-size: 24px;
+	padding-left: 25px;
+	padding-right: 25px;
+	color: white;
+	text-decoration: none;
+}
+html, body {
+	height:100%;
+	font-family:'Neuton';
+	overflow: hidden; /* Disable scrolling */
+} 
+html,body {
+	margin:0;
+	padding:0
+}
+body {
+	background-image: url(8bit.png); 
+	background-position:bottom left; 
+	background-repeat: no-repeat; 
+	margin-left: 0px; 
+	margin-top: 0px; 
+	margin-right: 0px; 
+	background-attachment:fixed; 
+	margin-bottom: 0px;
+}
+#wrapper {
+	min-height:100%;
+}
+.content {
+	position: relative;
+	top: 300px;
+	margin-left:270px;
+}
+#home {
+	width:720px; 
+	height:375px; 
+	
+}
+
+
+* html #wrapper {
+	/* ie6 and under only*/ 
+	height:100%;
+}
+h1 {
+	font-size:28px; 
+	font-family:'Neuton', serif; 
+	color:#696868; 
+	font-weight:lighter;
+}
+body a {
+	outline:0px;
+}
+h1 a {
+	color:#20679e; 
+	text-decoration:none; 
+	background-image:url(bg-link.png);
+}
+h1 a:hover {
+	text-decoration:underline;
+}
+#connect {
+	width:670px; 
+	height:70px; 
+	background:url(bg-contact.png) no-repeat; 
+	margin-top:80px; 
+	padding-left:120px;
+}
+#connect a {
+	height:49px; 
+	width:49px; 
+	margin-top:11px; 
+	margin-right:41px; 
+	float:left; 
+	overflow:hidden;
+}
+#connect a:hover {
+	background:url() no-repeat; 
+}
+#connect img {
+	border:solid 0px;
+}
