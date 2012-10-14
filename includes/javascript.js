@@ -45,7 +45,7 @@ $(document).ready(function() {
 	}	
 	
 	// When the user clicks a #header anchor
-	$('#header ul li a').click(function() {
+	$('#header a').click(function() {
 		// Get the hash of the anchor
 		var hash = $(this).attr('href');
 		// Get the offset (i.e. what height it is at on the document) plus 2 
@@ -83,73 +83,8 @@ $(document).ready(function() {
 
 	});
 	
-	// ABOUT PAGE
-	
-	function aboutPage() {
-		// Get the width and height of the about page, and divide the height by 4
-		var aboutWidth = $('#about').width();
-		var aboutHeight = $('#about').height() / 4;
-			
-		// Run a loop that adds circles
-		for(var noCircles = 65; noCircles > 0; --noCircles) {
-			
-			// Get a random co-ordinate, random size, and a random opacity
-			var randX = Math.floor(Math.random() * (aboutWidth + 1)) - 20;
-			var randY = Math.floor(Math.random() * (aboutHeight + 1)) - 20;
-			var randNo = Math.floor(Math.random() * 49) + 20; // Random height/width
-			var randOp = (Math.floor(Math.random() * (10)) + 1) / 10;
-				
-			// Get more random co-ordinates for the second background element
-			var randX2 = Math.floor(Math.random() * (301));
-			var randY2 = Math.floor(Math.random() * (111));
-			
-			// Fill the two background divs with circles. We use two because
-			// It allows for a certain amount of room if the user resizes the window
-			$('#about .background').append('<span class="circle" style="width: '+randNo+'px; height: '+randNo+'px; opacity: '+randOp+'; bottom: '+randY+'px; left: '+randX+'px"></span>');
-			$('#about .background-2').append('<span class="circle-2" style="width: '+randNo+'px; height: '+randNo+'px; opacity: '+randOp+'; left: '+randY2+'%; top: '+randX2+'px"></span>');
-		}
-		
-	}
-	
-	// CONTACT PAGE 
-	
-	function contactBackground() {
-		
-		// The number of layers we'll be working with
-		var layers = 9;
-		
-		// The window width and the number of triangles we should use.
-		var theWidth = $(window).width();	
-		var numberTri = Math.ceil(theWidth / 60);	
-		
-		// Run a loop to add some 'layer' divs based on the number of layers
-		for(var i = 0; i < layers; ++i) {
-			$('#contact .background').append('<div class="layer"></div>');
-		}	
-		
-		// Then add some triangles to each div
-		$('#contact .background .layer').each(function() {
-			
-			// Overcompensate so that the triangles dont abruptly end
-			var newWidth = numberTri * 60;
-			
-			// Then change the CSS for the layer based on the number of triangles
-			$(this).css({'width' : newWidth+300+'px'});
-			// Append spans (that act as triangles) as needed
-			for(var j = 0; j < (numberTri/2)+2; ++j) {
-				$(this).append('<span></span>');
-			}
-			// Reduce number of triangles for the next layer
-			numberTri = Math.ceil(numberTri - 1);
-			
-		});
-		
-	}
-	
 	/* RUN ALL FUNCTIONS */
 	
-	contactBackground();
-	aboutPage();
 	getSize();
 	$(window).resize(getSize);
 	$(window).scroll(getSize);
