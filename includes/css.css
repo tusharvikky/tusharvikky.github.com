@@ -53,12 +53,20 @@ body {
 }
 .content {
 	position: relative;
-	top: 350px;
+	top: 300px;
 	margin-left:270px;
 }
 #home, #skills, #portfolio, #about {
 	width:1024px; 
 	height:1024px;
+}
+
+.container {
+	font-family: 'Neuton';
+	font-size: 16px;
+	height: 100%;
+	width: 280px;
+	margin-right: 20px;
 }
 
 
