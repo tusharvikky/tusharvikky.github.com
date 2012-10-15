@@ -53,13 +53,12 @@ body {
 }
 .content {
 	position: relative;
-	top: 300px;
+	top: 350px;
 	margin-left:270px;
 }
-#home {
-	width:720px; 
-	height:375px; 
-	
+#home, #skills, #portfolio, #about {
+	width:1024px; 
+	height:1024px;
 }
 
 
@@ -110,3 +109,48 @@ h1 a:hover {
     right: 0;
     bottom: 0;
 }
+
+/*Portfolio*/
+/* Basic jCoverflip CSS */
+.ui-jcoverflip {
+position: relative;
+}
+
+.ui-jcoverflip--item {
+position: absolute;
+display: block;
+}
+
+
+/* Basic sample CSS */
+#flip {
+height: 200px;
+width: 640px;
+margin-bottom: 50px;
+}
+
+#flip .ui-jcoverflip--title {
+position: absolute;
+bottom: -30px;
+width: 100%;
+text-align: center;
+color: #555;
+}
+
+#flip img {
+display: block;
+border: 0;
+outline: none;
+}
+
+#flip a {
+outline: none;
+}
+
+#filp ul,
+      ul li {
+        margin: 0;
+        padding: 0;
+        display: block;
+        list-style-type: none;
+      }
