@@ -65,7 +65,7 @@ body {
 	font-family: 'Neuton';
 	font-size: 16px;
 	height: 100%;
-	width: 280px;
+	width: 300px;
 	margin-right: 20px;
 }
 
@@ -98,6 +98,22 @@ h1 a:hover {
 	margin-top:80px; 
 	padding-left:120px;
 }
+
+#tools {
+	width:670px; 
+	height:70px; 
+	margin-top:80px; 
+	padding-left:120px;
+}
+
+#tools a {
+	height:65px; 
+	width:65px; 
+	margin-top:11px; 
+	margin-right:41px; 
+	float:left; 
+	overflow:hidden;
+}
 #connect a {
 	height:49px; 
 	width:49px; 
@@ -106,10 +122,10 @@ h1 a:hover {
 	float:left; 
 	overflow:hidden;
 }
-#connect a:hover {
+#connect, #tools a:hover {
 	background:url() no-repeat; 
 }
-#connect img {
+#connect, #tools img {
 	border:solid 0px;
 }
 #w3{
@@ -135,6 +151,7 @@ display: block;
 height: 200px;
 width: 640px;
 margin-bottom: 50px;
+margin-left: 50px
 }
 
 #flip .ui-jcoverflip--title {
