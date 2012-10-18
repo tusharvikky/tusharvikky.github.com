@@ -122,10 +122,10 @@ h1 a:hover {
 	float:left; 
 	overflow:hidden;
 }
-#connect, #tools a:hover {
+#connect a:hover {
 	background:url() no-repeat; 
 }
-#connect, #tools img {
+#connect img {
 	border:solid 0px;
 }
 #w3{
