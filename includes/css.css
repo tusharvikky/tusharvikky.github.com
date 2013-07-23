@@ -47,6 +47,7 @@ body {
 	margin-right: 0px; 
 	background-attachment:fixed; 
 	margin-bottom: 0px;
+	z-index:100;
 }
 #wrapper {
 	min-height:100%;
