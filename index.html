@@ -1,136 +1,210 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
 
-	<link href="includes/css.css" rel="stylesheet" type="text/css"/>
-	<link href="includes/progressbar.css" rel="stylesheet" type="text/css"/>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="not-ie" lang="en">
+<!--<![endif]-->
 
-	<script type="text/javascript" src="includes/jquery.js"></script>
-	<script type="text/javascript" src="includes/jquery-ui-1.7.2.custom.js"></script>
-	<script type="text/javascript" src="includes/jquery.jcoverflip.js"></script>
-	<script>
-    jQuery( document ).ready( function(){
-        jQuery( '#flip' ).jcoverflip();
-      });      
-    </script>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+        <meta name="description" content="Tushar Deo's resume" />
+        <meta name="keywords" content="Tushar Deo"/>
+        <title>Tushar Deo &bull; tusharvikky@gmail.com &bull; +91 - 9664240747</title>
 
-	<title>tusharvikky | GitHub</title>
-</head>
+        <!-- style sheets-->
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700" rel="stylesheet" type="text/css">
+        <link href="//rawgit.com/beardtree/jsonresume-theme-timeline-beardtree/master/bower_components/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="//rawgit.com/beardtree/jsonresume-theme-timeline-beardtree/master/build/css/index.css" rel="stylesheet" type="text/css">
 
-<body>
-<div id="header">
-	<div id="navigation">
-		<a href="#home">Home</a>
-		<a href="#skills">Skills</a>
-		<a href="#portfolio">Portfolio</a>
-		<a href="#about">About</a>
-	</div>
-</div>
+        <!-- scripts-->
+        <script data-main="//rawgit.com/beardtree/jsonresume-theme-timeline-beardtree/master/js/index" src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.14/require.min.js"></script>
+    </head>
+    <body>
+        <!-- Top icons -->
+        <div class="top-icons hidden-xs hidden-sm hidden-print">
+            <a class="top-menu" data-toggle="tooltip" data-placement="top" title="Menu toggle"><span class="glyphicon glyphicon-th-list"></span></a>
+            <a href="includes/Resume_tusharvikky.pdf" class="top-download-resume" data-toggle="tooltip" data-placement="top" title="Download resume" target="_blank"><span class="glyphicon glyphicon-cloud-download"></span></a>
+            <a href="#" class="top-print" data-toggle="tooltip" data-placement="top" title="Print resume"><span class="glyphicon glyphicon-print"></span></a>
+        </div>
+        <!-- end Top icons -->
+
+        <!-- Navigation -->
+        <nav id="spy" class="spy hidden-sm hidden-xs hidden-print">
+            <ul>
+                <li class="active"><a href="#work-experience">Work experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#languages">Languages</a></li>
+            </ul>
+        </nav>
+        <!-- end Navigation -->
+
+        <!-- Navigation for small devices -->
+        <nav id="mini-nav" class="spy visible-sm visible-xs hidden-print">
+            <ul>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown">Menu</a>
+                    <ul class="dropdown-menu">
+                        <li class="active"><a href="#work-experience">Work experience</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#awards">Awards</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#interests">Interests</a></li>
+                        <li><a href="#languages">Languages</a></li>
+                    </ul>
+                </li>
+              </ul>
+        </nav>
+        <!-- end Navigation for small devices -->
+
+        <div id="resume" class="container">
+            <header id="header" class="hidden-print">
+                <div class="row">
+                    <div class="header-content col-sm-8 col-sm-offset-2 text-center">
+                        <img src="http:&#x2F;&#x2F;www.gravatar.com&#x2F;avatar&#x2F;1be2bdc2e6479b161d28b437e75805ae?s=200&amp;r=pg&amp;d=mm" class="face hidden-print" alt="A picture of me">
+                        <hr class="empty">
+                        <p class="header-name">Tushar Deo</p>
+                        <p class="header-subtitle">An ambitious, resourceful and skillful professional with extensive web - developing experience. A motivated and good team player who is adaptive and eager to learn. My key strengths are creative acumen, technical knowledge, helpful communication skills and managerial aptitude.</p>
+                        <p><a href="mailto:tusharvikky@gmail.com" target="_blank">tusharvikky@gmail.com</a> &bull; +91 - 9664240747 &bull; <a href="http:&#x2F;&#x2F;tusharvikky.github.io&#x2F;" target="_blank">http:&#x2F;&#x2F;tusharvikky.github.io&#x2F;</a></p>
+                        <p class="header-profiles hidden-print">
+                            <a href="http:&#x2F;&#x2F;www.twitter.com&#x2F;tusharvikky" class="btn btn-lg btn-default" target="_blank"><span class="fa fa-twitter"></span></a>
+                            <a href="http:&#x2F;&#x2F;github.com&#x2F;tusharvikky" class="btn btn-lg btn-default" target="_blank"><span class="fa fa-github"></span></a>
+                            <a href="http:&#x2F;&#x2F;facebook.com&#x2F;tusharvikky" class="btn btn-lg btn-default" target="_blank"><span class="fa fa-facebook"></span></a>
+                        </p>
+                    </div>
+                </div>
+            </header>
+
+            <section id="work-experience" class="work-experience section row">
+                <div class="col-sm-7 col-sm-offset-5">
+                    <ul>
+                        <li class="title"><span class="glyphicon glyphicon-briefcase"></span>Work experience</li>
+                        <li>
+                            <span class="note">March 2014 - February 2015</span>
+                            <p><strong>Co - Founder</strong> at <strong><a href="http:&#x2F;&#x2F;lokconnect.com" target="_blank">LokConnect</a></strong></p>
+                            <p class="description">LokConnect was a portal connecting people using Transparency, Accountability and Connectivity. A bridge through which Voices of common man can be heard.</p>
+                            <ul>
+                                <li>Build a platform using MVC architectural pattern.</li>
+                                <li>Finished Top 3 out of more than 400 Social Innovators in Communication and Technology innovation Challenge organized by NASSCOM Foundation. </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span class="note">January 2012 - January 2015</span>
+                            <p><strong>Web Developer</strong> at <strong><a href="http:&#x2F;&#x2F;github.com&#x2F;tusharvikky" target="_blank">Freelance</a></strong></p>
+                            <p class="description"></p>
+                            <ul>
+                                <li>Build Hotel Management System with Payment Gateway integration for saimoreshwar.com</li>
+                                <li>And various others which includes Tarot websites.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="education" class="education section row">
+                <div class="col-sm-7 col-sm-offset-5">
+                    <ul>
+                        <li class="title"><span class="glyphicon glyphicon-book"></span>Education</li>
+                        <li>
+                            <span class="note has-annotation">January 2004 - January 2005</span>
+                            <p><strong>SSC</strong> at <strong><a href="" target="_blank">Kendriya Vidyalaya O.N.G.C. Panvel</a></strong></p>
+                            <p class="description">Science</p>
+                        </li>
+                        <li>
+                            <span class="note has-annotation">April 2006 - April 2007</span>
+                            <p><strong>Maharashtra Board</strong> at <strong><a href="" target="_blank">St. Joseph Jr. College</a></strong></p>
+                            <p class="description">Computer Science</p>
+                        </li>
+                        <li>
+                            <span class="note has-annotation"> - </span>
+                            <p><strong>Engineering</strong> at <strong><a href="" target="_blank">A.C. Patil College of Engineering</a></strong></p>
+                            <p class="description">Electronics </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="awards" class="awards section row">
+                <div class="col-sm-7 col-sm-offset-5">
+                    <ul>
+                        <li class="title"><span class="glyphicon glyphicon-star"></span>Awards</li>
+                        <li>
+                            <span class="note">January 2014</span> <span class="annotation">NASSCOM</span>
+                            <p><strong><a href="" target="_blank">NASSCOM Social Innovation Honours</a></strong></p>
+                            <p class="description">Finalist - Finished Top 3 out of more than 400 Social Innovators in Communication and Technology innovation Challenge organized by NASSCOM Foundation. </p>
+                        </li>
+                        <li>
+                            <span class="note">February 2013</span> <span class="annotation">Microsoft</span>
+                            <p><strong><a href="" target="_blank">Programming in HTML5 with Javascript and CSS</a></strong></p>
+                            <p class="description">Microsoft Certified Professional (070-480)</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
 
 
-<div data-full="true" id="home">
-	<div class="content">
-		<h1>Hi! My name is Tushar Deo a.k.a "tusharvikky"<br>
-        I'm a Freelancer from <a href="http://en.wikipedia.org/wiki/Mumbai" target="_blank">Mumbai (INDIA)</a> , with a passion <br>
-        for Web development and designing. I love hard workouts on <a href="http://en.wikipedia.org/wiki/Backend" target="_blank">Backend</a><br>
-        and to challenge the impossible <a href="http://en.wikipedia.org/wiki/Frontend" target="_blank">Frontend</a>, while enjoying life.</h1>
-        <h1><a href="includes/Resume_tusharvikky.pdf" title="Download my resume (PDF)">Download my resume, it says it all</a> :)</h1>
-	<div id="connect">
-	<a href="http://github.com/tusharvikky" target="_blank"><img src="./includes/Github.png" alt="GitHub" width="48" height="48" ></a>
-	<a href="http://facebook.com/tusharvikky" target="_blank"><img src="./includes/Facebook.png" alt="Facebook" width="48" height="48" ></a>
-	<a href="mailto:tusharvikky@gmail.com"><img src="./includes/Gmail.png" width="48" height="48" alt="Email" class="mail" ></a>
-	<a href="http://twitter.com/tusharvikky" target="_blank"><img src="./includes/Twitter.png" alt="Twitter" width="48" height="48" ></a>
-	<a href="http://tusharvikky.tumblr.com/" target="_blank"><img src="./includes/Tumblr.png" alt="Twitter" width="48" height="48" ></a>
-	<a href="http://www.linkedin.com/in/tusharvikky" target="_blank"><img src="./includes/Linkedin.png" width="48" height="48" alt="LinkedIn" class="linkedin" ></a>
-	</div>
-	</div>
-</div>
-<!-- About -->
-<div data-full="true" id="skills">
-	<div class="content">
-	<div class="container" style="float: left;">
+            <section id="skills" class="skills section row">
+                <div class="col-sm-7 col-sm-offset-5">
+                    <ul>
+                        <li class="title"><span class="glyphicon glyphicon-tasks"></span>Skills</li>
+                        <li>
+                            <p><strong class="has-annotation">Web Development</strong> <span class="annotation">Master</span></p>
+                            <p class="keywords">
+                                <span class="label label-default">HTML</span>
+                                <span class="label label-default">CSS</span>
+                                <span class="label label-default">Javascript &#x2F; jQuery</span>
+                                <span class="label label-default">PHP</span>
+                                <span class="label label-default">MySQL &#x2F; MongoDB</span>
+                                <span class="label label-default">Git</span>
+                                <span class="label label-default">Laravel</span>
+                                <span class="label label-default">BackboneJS</span>
+                                <span class="label label-default">Bootstrap &#x2F; Foundation</span>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
 
-    HTML/5: <div class="progress progress-striped active">
-  	<div class="bar" style="width: 100%;">100%</div></div>
+            <section id="interests" class="interests section row">
+                <div class="col-sm-7 col-sm-offset-5">
+                    <ul>
+                        <li class="title"><span class="glyphicon glyphicon-heart-empty"></span>Interests</li>
+                        <li>
+                            <p><strong class="has-annotation">Music</strong></p>
+                            <p class="keywords">
+                                <span class="label label-default">Dubstep</span>
+                                <span class="label label-default">Chillstep</span>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
 
-  	CSS/3: <div class="progress progress-striped active">
-  	<div class="bar" style="width: 100%;">100%</div></div>
+            <section id="languages" class="languages section row">
+                <div class="col-sm-7 col-sm-offset-5">
+                    <ul>
+                        <li class="title"><span class="glyphicon glyphicon-globe"></span>Languages</li>
+                        <li>
+                            <p><strong class="has-annotation">English</strong> <span class="annotation"></span></p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
 
-  	PHP: <div class="progress progress-striped active">
-  	<div class="bar" style="width: 100%;">100%</div></div>
 
-  	MySQL: <div class="progress progress-striped active">
-  	<div class="bar" style="width: 100%;">100%</div></div>
-
-  	CodeIgniter: <div class="progress progress-striped active">
-  	<div class="bar" style="width: 100%;">100%</div></div> 	
-</div>
-<div class="container" style="float: left;">
-
-  	MongoDB: <div class="progress progress-striped active">
-  	<div class="bar" style="width: 95%;">95%</div></div>
-
-  	Laravel: <div class="progress progress-striped active">
-  	<div class="bar" style="width: 95%;">95%</div></div>
-
-  	jQuery: <div class="progress progress-striped active">
-  	<div class="bar" style="width: 95%;">95%</div></div>
-
-  	Wordpress: <div class="progress progress-striped active">
-  	<div class="bar" style="width: 85%;">85%</div></div>
-
-  	Photoshop: <div class="progress progress-striped active">
-  	<div class="bar" style="width: 35%;">35%</div></div>
-</div>
-	</div>
-</div>
-
-<div data-full="true" id="portfolio">
-	<div class="content">
-	<ul id="flip">
-	<li><a href="http://www.lokconnect.com/" target="_blank"><span class="title">LokConnect</span><img src="includes/port/lokconnect.jpg" alt="LokConnect" ></a></li>
-	<li><a href="http://saimoreshwar.com/" target="_blank"><span  class="title">Sai Moreshwar Hotel (Hotel Management System)</span><img src="includes/port/sai-moreshwar.png" alt="Sai Moreshwar Hotel (Hotel Management System)" ></a></li>
-	<li><a href="http://www.vectors13.com" target="_blank"><span class="title">Vectors '13</span><img src="includes/port/vectors13.png" alt="Vectors '13" ></a></li>
-    	<li><a href="http://www.infusion12.com" target="_blank"><span class="title">Infusion '12</span><img src="includes/port/infusion12.png" alt="Infusion '12" ></a></li>
-    	<li><a href="http://web.archive.org/web/20110107134203/http://www.bytesplus.net/" target="_blank"><span class="title">BytesPlus</span><img src="includes/port/bytesplus.png" alt="BytesPlus" ></a></li>
-    	<li><a href="http://tusharvikky.github.com/Presentation-Click-Precision/#/title" target="_blank"><span  class="title">Click Precision (Presentation)</span><img src="includes/port/Presentation.png" alt="Click Precision (Presentation)" ></a></li>
-    
-  </ul>
-	</div>
-</div>
-
-<div data-full="true" id="about">
-	<div class="content">
-	<h1>Super Power Tools</h1>
-	<div id="tools">
-	<a href="http://en.wikipedia.org/wiki/Windows_8" target="_blank"><img src="./includes/tools/OS Windows 8.png" alt="Windows 8" width="64" height="64" ></a>
-	<a href="http://en.wikipedia.org/wiki/Ubuntu_(operating_system)" target="_blank"><img src="./includes/tools/OS Ubuntu.png" alt="Ubuntu" width="64" height="64" ></a>
-	<a href="http://en.wikipedia.org/wiki/Command_Prompt" target="_blank"><img src="./includes/tools/Command Prompt.png" alt="Command Prompt" width="64" height="64" ></a>
-	<a href="http://en.wikipedia.org/wiki/Google_Chrome" target="_blank"><img src="./includes/tools/Google Chrome.png" alt="Google Chrome" width="64" height="64" ></a>
-	<a href="http://en.wikipedia.org/wiki/Firefox" target="_blank"><img src="./includes/tools/Firefox.png" alt="Firefox" width="64" height="64" ></a>
-	<a href="http://en.wikipedia.org/wiki/Adobe_Dreamweaver" target="_blank"><img src="./includes/tools/Adobe Dreamweaver.png" alt="Dreamweaver" width="64" height="64" ></a>
-	<a href="http://en.wikipedia.org/wiki/Adobe_Photoshop" target="_blank"><img src="./includes/tools/Adobe Photoshop.png" alt="Photoshop" width="64" height="64" ></a>	
-	<a href="http://en.wikipedia.org/wiki/Sublime_Text" target="_blank"><img src="./includes/tools/Sublime Text 2.jpg" alt="Sublime Text 2" width="64" height="64" ></a>
-	<a href="http://en.wikipedia.org/wiki/Codeigniter" target="_blank"><img src="./includes/tools/CodeIgniter.png" alt="CodeIgniter" width="64" height="64" ></a>
-	<a href="http://en.wikipedia.org/wiki/Laravel" target="_blank"><img src="./includes/tools/Laravel.png" alt="Laravel" width="64" height="64" ></a>
-
-	</div>
-	</div>
-</div>
-<!-- <div data-full="true" id="about">
-	<div class="content">
-	<h1>Working on it.</h1>
-	</div> -->
-
-<!-- w3 HTML5 logo -->
-<div id="w3">
-	<a href="http://www.w3.org/html/logo/" target="_blank">
-	<img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="165" height="64" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics">
-	</a>
-</div>
-
+            <section class="up section row hidden-print">
+                <div class="col-sm-7 col-sm-offset-5">
+                    <ul>
+                        <li class="title"><span class="glyphicon glyphicon-arrow-up"></span>Up</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
 <!-- Google Analytics -->
 <script type="text/javascript">
 
@@ -146,5 +220,5 @@
 
 </script>
 <!-- /Google Analytics -->
-
-</body></html>
+    </body>
+</html>

@@ -1,0 +1,137 @@
+{
+  "basics": {
+    "name": "Tushar Deo",
+    "label": "Web Programmer",
+    "picture": "",
+    "email": "tusharvikky@gmail.com",
+    "phone": "+91 - 9664240747",
+    "website": "http://tusharvikky.github.io/",
+    "summary": "An ambitious, resourceful and skillful professional with extensive web - developing experience. A motivated and good team player who is adaptive and eager to learn. My key strengths are creative acumen, technical knowledge, helpful communication skills and managerial aptitude.",
+    "location": {
+      "address": "A - 503, Lakhani Galaxy, Sector - 15, CBD Belapur",
+      "postalCode": "400614",
+      "city": "Navi Mumbai",
+      "countryCode": "INDIA",
+      "region": "Maharashtra"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "tusharvikky",
+        "url": "http://www.twitter.com/tusharvikky"
+      },
+      {
+        "network": "Github",
+        "username": "tusharvikky",
+        "url": "http://github.com/tusharvikky"
+      },
+      {
+        "network": "Facebook",
+        "username": "tusharvikky",
+        "url": "http://facebook.com/tusharvikky"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "LokConnect",
+      "position": "Co - Founder",
+      "website": "http://lokconnect.com",
+      "startDate": "2014-03-19",
+      "endDate": "2015-02-01",
+      "summary": "LokConnect was a portal connecting people using Transparency, Accountability and Connectivity. A bridge through which Voices of common man can be heard.",
+      "highlights": [
+        "Build a platform using MVC architectural pattern.",
+        "Finished Top 3 out of more than 400 Social Innovators in Communication and Technology innovation Challenge organized by NASSCOM Foundation. "
+      ]
+    },
+    {
+      "company": "Freelance",
+      "position": "Web Developer",
+      "website": "http://github.com/tusharvikky",
+      "startDate": "2012-01-01",
+      "endDate": "2015-01-01",
+      "summary": "",
+      "highlights": [
+        "Build Hotel Management System with Payment Gateway integration for saimoreshwar.com",
+        "And various others which includes Tarot websites."
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Kendriya Vidyalaya O.N.G.C. Panvel",
+      "area": "Science",
+      "studyType": "SSC",
+      "startDate": "2004-01-01",
+      "endDate": "2005-01-01",
+      "gpa": "65%",
+      "courses": []
+    },
+    {
+      "institution": "St. Joseph Jr. College",
+      "area": "Computer Science",
+      "studyType": "Maharashtra Board",
+      "startDate": "2006-04-01",
+      "endDate": "2007-04-01",
+      "gpa": "70%",
+      "courses": []
+    },
+    {
+      "institution": "A.C. Patil College of Engineering",
+      "area": "Electronics ",
+      "studyType": "Engineering",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "NASSCOM Social Innovation Honours",
+      "date": "2014-01-01",
+      "awarder": "NASSCOM",
+      "summary": "Finalist - Finished Top 3 out of more than 400 Social Innovators in Communication and Technology innovation Challenge organized by NASSCOM Foundation. "
+    },
+    {
+      "title": "Programming in HTML5 with Javascript and CSS",
+      "date": "2013-02-01",
+      "awarder": "Microsoft",
+      "summary": "Microsoft Certified Professional (070-480)"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript / jQuery",
+        "PHP",
+        "MySQL / MongoDB",
+        "Git",
+        "Laravel",
+        "BackboneJS",
+        "Bootstrap / Foundation"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "Music",
+      "keywords": [
+        "Dubstep",
+        "Chillstep"
+      ]
+    }
+  ],
+  "references": []
+}
