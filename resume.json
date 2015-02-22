@@ -16,14 +16,19 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
+        "network": "linkedin",
         "username": "tusharvikky",
-        "url": "http://www.twitter.com/tusharvikky"
+        "url": "http://in.linkedin.com/in/tusharvikky"
       },
       {
         "network": "Github",
         "username": "tusharvikky",
         "url": "http://github.com/tusharvikky"
+      },
+      {
+        "network": "Twitter",
+        "username": "tusharvikky",
+        "url": "http://www.twitter.com/tusharvikky"
       },
       {
         "network": "Facebook",
